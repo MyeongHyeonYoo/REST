@@ -25,5 +25,10 @@ public class SampleController {
 	public SampleVO getSample() {
 		return new SampleVO(112, "스타", "로드");
 	}
+	
+	@GetMapping(value = "/getSample2")
+	public SampleVO getSample2() {
+		return new SampleVO(113, "로켓", "라쿤");
+	}
 			
 }

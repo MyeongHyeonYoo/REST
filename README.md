@@ -35,7 +35,8 @@
 - 브라우저가 받은 데이터 - XML<br>
 <img src="img/getSample.jpg" width="600" height="150">
     - 타입 확인<br>
-    <img src="img/check_xml.jpg" width="250" height="150">
+    <img src="img/check_xml.jpg" width="250" height="150"><br>
+      <img src="img/getSample2.jpg" width="600" height="150">
 
 <br>
 

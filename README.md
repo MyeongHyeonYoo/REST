@@ -58,6 +58,18 @@
 - 브라우저가 받은 데이터 - JSON<br>
 <img src="img/getList.json.jpg" width="300" height="700">
 
+<br>
+
+#### ◾ **getMap** 
+- 브라우저가 받은 데이터 - XML<br>
+<img src="img/getMap.jpg" width="600" height="150">
+
+<br>
+
+#### ◾ **getMap.json** 
+- 브라우저가 받은 데이터 - JSON<br>
+<img src="img/getMap.json.jpg" width="450" height="150">
+
 ---
 
 

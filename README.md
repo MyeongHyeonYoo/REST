@@ -70,6 +70,18 @@
 - 브라우저가 받은 데이터 - JSON<br>
 <img src="img/getMap.json.jpg" width="450" height="150">
 
+<br>
+
+#### ◾ **check** 
+- 파라미터 값 주기<br>
+<img src="img/check_height_weight.jpg" width="600" height="150"><br>
+- General check - Status Code: 502<br>
+    - height가 150 미만이면 HTTP상태메시지 전달<br>
+<img src="img/check_bad_gateway(502).jpg" width="250" height="150">
+     
+
+<br>
+
 ---
 
 

@@ -24,8 +24,18 @@
 ---
 
 #### ◾ **START** 
-- 환경설정 및 시작 <br>
-<img src="img/rest_start.jpg" width="400" height="150">
+- 환경설정 및 시작 - '안녕하세요' 확인<br>
+<img src="img/rest_start(sample).jpg" width="400" height="150">
+    - 타입 확인<br>
+    <img src="img/type_text_plain.jpg" width="200" height="100">
+
+
+#### ◾ **getSample** 
+- 브라우저가 받은 데이터 - XML<br>
+<img src="img/getSample.jpg" width="600" height="150">
+    - 타입 확인<br>
+    <img src="img/check_xml.jpg" width="200" height="100">
+
 
 ---
 

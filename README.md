@@ -77,10 +77,17 @@
 <img src="img/check_height_weight.jpg" width="600" height="150"><br>
 - General check - Status Code: 502<br>
     - height가 150 미만이면 HTTP상태메시지 전달<br>
-<img src="img/check_bad_gateway(502).jpg" width="250" height="150">
-     
+<img src="img/check_bad_gateway(502).jpg" width="250" height="150"><br>
 
+```
+파라미터 값을 반드시 전달해 주어야 하고
+하나라도 제대로 전달해 주지 않는다면,
+'HTTP 상태 400 – 잘못된 요청' 에러 발생
+```
+     
 <br>
+
+
 
 ---
 

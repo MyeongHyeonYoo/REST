@@ -23,7 +23,7 @@
  
 ---
 
-#### ◾ **START** 
+#### ◾ **START @GetMapping** 
 - 환경설정 및 시작 - '안녕하세요' 확인<br>
 <img src="img/rest_start(sample).jpg" width="400" height="150">
     - 타입 확인<br>
@@ -87,7 +87,9 @@
      
 <br>
 
-
+#### ◾ **@PathVariable** 
+<img src="img/atPathVariable.jpg" width="600" height="150"><br>
+값을 얻을 때에는 int, double과 같은 기본 타입의 자료형은 사용 불가
 
 ---
 

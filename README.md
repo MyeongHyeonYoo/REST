@@ -46,6 +46,18 @@
     - 타입 확인<br>
     <img src="img/check_json.jpg" width="250" height="150">
 
+<br>
+
+#### ◾ **getList** 
+- 브라우저가 받은 데이터 - XML<br>
+<img src="img/getList.jpg" width="700" height="700">
+
+<br>
+
+#### ◾ **getList.json** 
+- 브라우저가 받은 데이터 - JSON<br>
+<img src="img/getList.json.jpg" width="300" height="700">
+
 ---
 
 

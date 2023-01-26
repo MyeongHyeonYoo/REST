@@ -23,7 +23,7 @@
  
 ---
 
-#### ◾ **START @GetMapping** 
+#### ◾ **START ▶ @GetMapping** 
 - 환경설정 및 시작 - '안녕하세요' 확인<br>
 <img src="img/rest_start(sample).jpg" width="400" height="150">
     - 타입 확인<br>
@@ -91,6 +91,35 @@
 <img src="img/atPathVariable.jpg" width="600" height="150"><br>
 값을 얻을 때에는 int, double과 같은 기본 타입의 자료형은 사용 불가
 
+<br>
+
+#### ◾ **REST방식의 테스트** 
+#### ▶ @RunWith, @WebAppConfiguration, @ContextConfiguration, @Log4j
+```
+@RunWith(SpringJUnit4ClassRunner.class)
+
+//Test for Controller
+@WebAppConfiguration 
+@ContextConfiguration({
+	"file:src/main/webapp/WEB-INF/spring/root-context.xml",
+	"file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml"
+	})
+@Log4j
+```
+#### ▶▶ @Before, @Test
+- JUnit 기반의 테스트<br>
+<img src="img/jUnit_test_testConvert.jpg" width="550" height="160"><br>
+JSON 문자열이 Ticket타입의 객체로 변환
+(코드 내의 Gson 라이브러리는 Java의 객체를 JSON 문자열로 변환하기 위해 사용)
+    - test succes<br>
+<img src="img/jUnit_test_testConvert_succes.jpg" width="200" height="150"><br>
+JUnit을 이용하는 방식의 테스트 장점은 Tomcat을 구동하지 않고도 컨트롤러를 구동해 볼 수 있다.
+```
+↘ 크롬 확장 프로그램 (REST 방식 테스트 도구)
+Chrome 브라우저 앱스토어(chrome://apps/) -> 'REST client' 검색
+curl(https://curl.haxx.se/) -> 리눅스, Mac 전용
+
+```
 ---
 
 

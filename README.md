@@ -23,6 +23,8 @@
  
 ---
 
+### REST 방식의 전환
+
 #### ◾ **START ▶ @GetMapping** 
 - 환경설정 및 시작 - '안녕하세요' 확인<br>
 <img src="img/rest_start(sample).jpg" width="400" height="150" style="border-radius: 5px;">
